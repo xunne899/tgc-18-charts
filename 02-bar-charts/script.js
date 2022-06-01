@@ -15,7 +15,7 @@ const chart = new ApexCharts(document.querySelector('#chart'), {
     'series':[
         {
             "name":"revenue",
-            "data": generateRandomValues()
+            "data": generateRandomValues(),
         }
     ],
     'xaxis': {
